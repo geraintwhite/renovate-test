@@ -116,7 +116,7 @@
     "flow-typed": "3.3.1",
     "flow-watch": "2.0.0",
     "fs-extra": "10.0.0",
-    "html-webpack-plugin": "4.5.2",
+    "html-webpack-plugin": "5.3.1",
     "husky": "6.0.0",
     "jest": "27.0.4",
     "jetifier": "2.0.0",
