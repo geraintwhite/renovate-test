@@ -1,5 +1,32 @@
 {
-  "extends": ["config:base"],
+  "extends": [
+    "config:base",
+    ":rebaseStalePrs",
+    ":noUnscheduledUpdates",
+    ":prNotPending",
+    ":dependencyDashboard"
+  ],
+  "stabilityDays": 3,
+  "internalChecksFilter": "strict",
   "enabledManagers": ["npm", "nvm"],
-  "node": { "supportPolicy": ["lts_latest"], "major": { "enabled": true } }
+  "node": {
+    "supportPolicy": ["lts_latest"],
+    "major": { "enabled": true }
+  },
+  "ignoreDeps": ["flow-bin", "electron"],
+  "ignorePaths": ["**/node_modules/**", "**/Pods/**"],
+  "packageRules": [
+    {
+      "groupName": "dependencies (non-major)",
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": false
+    },
+    {
+      "groupName": "devDependencies (non-major)",
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    }
+  ]
 }
