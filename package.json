@@ -94,7 +94,7 @@
     "case-sensitive-paths-webpack-plugin": "2.4.0",
     "chalk": "4.1.1",
     "concurrently": "6.2.0",
-    "copy-webpack-plugin": "6.4.1",
+    "copy-webpack-plugin": "9.0.0",
     "dotenv": "10.0.0",
     "dotenv-expand": "5.1.0",
     "electron": "5.0.11",
