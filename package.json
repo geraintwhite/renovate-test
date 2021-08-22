@@ -110,7 +110,7 @@
     "eslint-watch": "7.0.0",
     "file-loader": "6.2.0",
     "flow-bin": "0.137.0",
-    "flow-node": "2.157.0",
+    "flow-node": "2.158.0",
     "flow-typed": "3.3.1",
     "flow-watch": "2.0.0",
     "fs-extra": "10.0.0",
