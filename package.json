@@ -77,8 +77,8 @@
     "wavesurfer.js": "5.0.1"
   },
   "devDependencies": {
-    "@babel/core": "7.15.0",
-    "@storybook/addon-actions": "6.3.7",
+    "@babel/core": "7.15.5",
+    "@storybook/addon-actions": "6.3.8",
     "@storybook/addon-ondevice-actions": "5.3.23",
     "@storybook/react-native": "5.3.25",
     "@storybook/react-native-server": "5.3.23",
