@@ -115,7 +115,7 @@
     "flow-watch": "2.0.0",
     "fs-extra": "10.0.0",
     "html-webpack-plugin": "4.5.2",
-    "husky": "6.0.0",
+    "husky": "7.0.4",
     "jest": "27.3.1",
     "jetifier": "2.0.0",
     "lint-staged": "11.2.6",
