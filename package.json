@@ -100,7 +100,7 @@
     "jest-enzyme": "7.1.2",
     "lint-staged": "12.3.7",
     "markdownlint-cli": "0.31.1",
-    "node-polyfill-webpack-plugin": "1.1.4",
+    "node-polyfill-webpack-plugin": "2.0.1",
     "nyc": "15.1.0",
     "package-changed": "1.9.0",
     "plugin-error": "1.0.1",
